@@ -576,10 +576,12 @@ img {
 .gallery-stained { background: linear-gradient(135deg, #d4a574 0%, #b8860b 50%, #c9a86c 100%); color: rgba(255,255,255,0.95); }
 
 .gallery-img {
+  display: block;
   width: 100%;
   height: 100%;
   object-fit: cover;
   transition: transform var(--transition-slow);
+  vertical-align: middle;
 }
 
 .gallery-item:hover .gallery-img {
